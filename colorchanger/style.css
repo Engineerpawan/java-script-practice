@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+.container h3{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    border:3px solid black;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+#gray{
+    background-color: gray;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+#orange{
+    background-color: rgb(160, 107, 0, 0);
+}
+
